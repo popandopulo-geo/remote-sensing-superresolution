@@ -8,14 +8,15 @@ The primary goal of this project was to explore and improve neural network-based
 
 ## Implemented Methods
 
-### SRGAN (Super-Resolution Generative Adversarial Network)
-A neural network model designed for super-resolution tasks, particularly focused on generating high-resolution images from lower-resolution inputs.
 
-### RCAN (Residual Channel Attention Network)
-A deep learning model that utilizes residual learning and channel attention mechanisms to enhance image resolution effectively.
+**Super-Resolution Generative Adversarial Network (SRGAN):** A neural network approach for image super-resolution that utilizes a generative adversarial network (GAN) to produce high-resolution images from low-resolution inputs.
 
-### RCAGAN (Residual Channel Attention Generative Adversarial Network)
-A novel model combining the RCAN architecture with the adversarial training approach of SRGAN to improve the quality of high-resolution images.
+**Residual Channel Attention Network (RCAN):** A deep learning model that combines residual learning with channel attention mechanisms to effectively enhance image resolution by focusing on important features.
+
+### Modifications and Improvements
+
+**Residual Channel Attention Generative Adversarial Network (RCAGAN):** A novel model that integrates the RCAN architecture with adversarial training from SRGAN, designed to improve image resolution further. This hybrid model leverages the strengths of both approaches and represents my own modification to enhance the super-resolution task.
+
 
 ## Data Used
 
